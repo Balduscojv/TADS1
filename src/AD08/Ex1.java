@@ -11,7 +11,7 @@ public class Ex1 {
         Random aleatorio = new Random();
         int[] contagemFaces = new int[6];
         int numLancamentos = 1000000;
-        int num1, num2, num3, num4, num5, num6, repeticao = 0;
+        int repeticao = 0;
 
         do {
             int dado = aleatorio.nextInt(6) + 1;
